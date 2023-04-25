@@ -1,10 +1,18 @@
 import React from "react";
-import { Container } from "./styles";
+import logoImg from '../../assets/logo.svg';
+import { Container, Header, LogImg, MenuContainer, MenuItemLink } from "./styles";
 
 const Aside: React.FC = () => {
     return (
         <Container>
-            <h1>Aside</h1>
+            <Header>
+                <LogImg src={logoImg} alt="Logo Minha Carteira" />
+            </Header>
+            <MenuContainer>
+                <MenuItemLink href="#">
+                    Dashboard
+                </MenuItemLink>
+            </MenuContainer>
         </Container>
         
     );
