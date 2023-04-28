@@ -17,8 +17,8 @@ const Dashboard: React.FC = () => {
     return (
         <Container>
             <ContentHeader title="Dashboard" lineColor="#F7931B">
-                <SelectInput options={options}></SelectInput>
-                <SelectInput options={options2}></SelectInput>
+                <SelectInput options={options} onChange={(e) => {}}></SelectInput>
+                <SelectInput options={options2} onChange={(e) => {}}></SelectInput>
             </ContentHeader>
         </Container>
     );
