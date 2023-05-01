@@ -30,7 +30,7 @@ const List: React.FC = () => {
         return type === 'entry-balance' ?
             {
                 title: 'Entradas',
-                lineColor: '#F7931B',
+                lineColor: '#4E41F0',
                 listData: gains
             } : {
                 title: 'Saídas',
