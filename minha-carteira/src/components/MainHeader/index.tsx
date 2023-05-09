@@ -5,9 +5,9 @@ import {
     Container, 
     Profile, 
     Welcome, 
-    UserName 
+    UserName
 } from "./styles";
-import { useTheme } from "../../hooks";
+import { useTheme } from "../../hooks/theme";
 
 const MainHeader: React.FC = () => {
     const { toggleTheme, theme } = useTheme();

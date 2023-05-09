@@ -31,6 +31,10 @@ export const ChartHeader = styled.header`
         margin-bottom: 20px;
         margin-left: 15px;
     }
+
+    @media(max-width: 1200px) {
+        flex-direction: column;
+    }
 `;
 
 export const LegendContainer = styled.ul`
@@ -57,6 +61,15 @@ export const Legend = styled.li<ILegendProps>`
 
     > span {
         margin-left: 5px;
+    }
+
+    @media(max-width: 1200px) {
+        > div {
+            width: 30px;
+            height: 30px;
+            margin-left: 10px;
+        }
+        
     }
 `;
 
